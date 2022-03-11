@@ -16,3 +16,11 @@
 .business {
   width: calc(100% / 3);
 }
+
+.partner {
+  width: calc(100% / 2);
+}
+
+.operazioni {
+  width: 300px
+}
