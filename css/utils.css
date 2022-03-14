@@ -3,7 +3,7 @@
   width: 60%;
   max-height: 1500px;
   margin: 0 auto;
-  background-color: red;
+  background-color: white;
 }
 
 .clearfix::after{
@@ -84,4 +84,8 @@ a{
 
 .h700 {
   min-height: 550px;
+}
+
+.h800 {
+  height: 800px;
 }

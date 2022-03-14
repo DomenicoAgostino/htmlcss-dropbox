@@ -1,7 +1,5 @@
 
 /* head */
- 
-
 
 .menu-complete {
   background-color: white (255, 0, 0, .3);
@@ -92,8 +90,24 @@ nav ul li a {
 
 /* main */
 
+.bottone-extra {
+  margin-top: 30px;
+}
 
-.text-business{
+.abbonamento {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.prezzo {
+  margin-top: 10px;
+}
+
+.people {
+  opacity: 0.5;
+}
+
+.fattura {
+  margin-top: 30px;
 }
 
 #piani {
@@ -110,4 +124,11 @@ nav ul li a {
 
 .operazioni {
   width: 300px
+}
+
+
+.general-top {
+  text-align: center;
+  height: 30px;
+  border: 1px solid black;
 }
