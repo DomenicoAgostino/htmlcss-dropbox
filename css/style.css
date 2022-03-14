@@ -71,7 +71,7 @@ nav ul li a {
 }
 
 
-.img-business {
+.img-jumbo {
   background-image: url(../img/jumbo.png);
   background-size: cover;
   background-position: center;
@@ -91,6 +91,10 @@ nav ul li a {
 
 
 /* main */
+
+
+.text-business{
+}
 
 #piani {
   padding-top: 100px;
