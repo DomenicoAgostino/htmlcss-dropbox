@@ -2,6 +2,12 @@
 /* head */
  
 
+
+.menu-complete {
+  background-color: white (255, 0, 0, .3);
+  border: 1px solid black;
+}
+
 nav {
   position: fixed;
   height: 70px;
@@ -40,8 +46,36 @@ nav ul li a {
 }
 
 
+
+
+/* jumbotron */
+
+.content{
+  width: 90%;
+  max-width: 1300px;
+  margin:  123px auto -29px auto;
+
+}
+
 .jumbotron {
   background-color: rgb(180, 208, 231);
+  height: 605px;
+}
+
+#titolo {
+  font-size: 50px;
+}
+
+.client-pro {
+  min-height: 438px;
+}
+
+
+.img-business {
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-position: center;
+
 }
 
 
@@ -57,6 +91,10 @@ nav ul li a {
 
 
 /* main */
+
+#piani {
+  padding-top: 100px;
+}
 
 .business {
   width: calc(100% / 3);

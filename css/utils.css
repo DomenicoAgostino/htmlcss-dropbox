@@ -41,6 +41,7 @@ a{
 }
 
 
+
 .w50{
   width: 50%;
 }
@@ -62,7 +63,7 @@ a{
 /* DEBUG */
 
 .debug {
-  background-color: rgba(255, 0, 0, .3);
+  background-color: white (255, 0, 0, .3);
   border: 1px solid black;
 }
 
