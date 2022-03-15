@@ -17,7 +17,6 @@ nav {
 
 
 nav ul li {
-  list-style: none;
   display: inline-block;
   line-height: 70px;
   margin-right: 30px;
@@ -51,21 +50,23 @@ nav ul li a {
 .content{
   width: 90%;
   max-width: 1300px;
-  margin:  123px auto -29px auto;
+  margin:  75px auto -29px auto;
 
 }
 
 .jumbotron {
   background-color: rgb(180, 208, 231);
-  height: 605px;
+  height: 539px;
 }
 
 #titolo {
-  font-size: 50px;
+  font-size: 77px;
 }
 
 .client-pro {
   min-height: 438px;
+  margin-top: 10px;
+  line-height: 19px;
 }
 
 
@@ -78,20 +79,17 @@ nav ul li a {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* main */
 
 .bottone-extra {
   margin-top: 30px;
+}
+
+.barra-special {
+  height: 1px;
+  width: 65px;
+  background-color: black;
+  opacity: 0.5;
 }
 
 .abbonamento {
@@ -104,6 +102,7 @@ nav ul li a {
 
 .people {
   opacity: 0.5;
+  margin-top: 10px;
 }
 
 .fattura {
@@ -123,12 +122,77 @@ nav ul li a {
 }
 
 .operazioni {
-  width: 300px
+  width: calc(100% / 3);
+}
+
+.ope-text {
+  line-height: 100px;
+  font-size: 30px;
 }
 
 
 .general-top {
   text-align: center;
-  height: 30px;
+  height: 40px;
+  padding: 10px;
   border: 1px solid black;
+}
+
+.check-blue {
+  color: blue;
+}
+
+
+.enterprise {
+  margin: 20px 20px;
+  position: absolute;
+}
+
+.cont-uff {
+  position: relative;
+  left: 100%;
+  bottom: 20px;
+}
+
+
+.partner-drop {
+ 
+  width: 100%;
+  height: 410px;
+}
+
+
+.partner-text {
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+
+
+.description-partner {
+  margin-left: 20px;
+  margin-top: 35px;
+  margin-right: 66px;
+  line-height: 25px;
+}
+
+
+.bottone-partner {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: white;
+  border: 1px solid black;
+  line-height: 11px;
+  color: black;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#switch {
+  height: 200px;
+  margin-left: 4px;
+}
+
+
+#text-bus {
+  padding-left: 10px;
 }

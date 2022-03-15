@@ -1,6 +1,6 @@
 
 .container {
-  width: 60%;
+  width: 65%;
   max-height: 1500px;
   margin: 0 auto;
   background-color: white;
@@ -12,9 +12,14 @@
   clear: both;
 }
 
+ul li {
+  list-style: none;
+}
+
 
 .float-left {
   float: left;
+
 }
 
 
@@ -78,6 +83,14 @@ a{
 .h300 {
   min-height: 300px;
 }
+
+.h350 {
+  height: 350px;
+}
+
+.h400 {
+  height: 400px;
+}
 .h500 {
   min-height: 500px;
 }
@@ -88,4 +101,8 @@ a{
 
 .h800 {
   height: 800px;
+}
+
+.h900 {
+  height: 900px;
 }
